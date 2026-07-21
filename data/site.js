@@ -168,18 +168,127 @@ export const services = [
 
 export const knowledge = [
   {
+    slug: "hvornaar-skal-bilen-til-service",
     title: "Hvornår skal bilen til service?",
-    text: "Serviceintervallet afhænger både af kilometer, tid og bilens brug. Mange korte ture kan belaste olie, batteri og bremser mere end forventet."
+    short: "Serviceintervallet afhænger både af kilometer, tid og bilens brug. Mange korte ture kan belaste olie, batteri og bremser mere end forventet.",
+    image: "/images/hero-workshop.png",
+    imageAlt: "Bil på lift til service på autoværksted",
+    relatedService: "autoservice",
+    body: [
+      "De fleste bilproducenter angiver et serviceinterval i servicebogen eller i bilens display, som regel en kombination af kilometer og tid, for eksempel hver 15.000 km eller én gang om året, alt efter hvad der kommer først. Det tal er et udgangspunkt, ikke en garanti for at bilen er fejlfri lige til næste service.",
+      "Kørselsmønster betyder mere, end de fleste tror. Mange korte ture i byen er faktisk hårdere ved bilen end lange ture på motorvejen. Motoren når sjældent op på normal driftstemperatur, olien renser sig selv dårligere, og batteriet bliver ikke ladet ordentligt op mellem hver tur. Har du mest kort kørsel, kan det derfor være en god idé at holde dig i den lave ende af serviceintervallet frem for den høje.",
+      "Alder på bilen spiller også ind. Gummidele, slanger og pakninger bliver med tiden skøre af varme og sollys, uanset hvor få kilometer bilen har kørt. En ældre bil med lav kilometerstand kan derfor sagtens have brug for et grundigere kig, end kilometertallet alene antyder.",
+      "Du behøver ikke vente på næste planlagte service, hvis bilen ændrer sig undervejs. Nye lyde, en blødere bremsepedal, øget olieforbrug eller en advarselslampe der lyser, er alle gode grunde til at få bilen set efter, uanset hvor langt der er til den fastsatte dato."
+    ],
+    tips: [
+      "Følg servicebogens interval som udgangspunkt, ikke som facitliste",
+      "Kør du mest korte ture, så hold dig i den lave ende af intervallet",
+      "Reager på ændringer i lyd, følelse eller forbrug med det samme",
+      "En ældre bil kan have brug for service oftere end kilometertallet foreslår"
+    ]
   },
   {
+    slug: "5-tegn-paa-slidte-bremser",
     title: "5 tegn på slidte bremser",
-    text: "Pibelyde, vibrationer, en blød pedal, længere bremselængde eller en advarselslampe er gode grunde til at få bilen kontrolleret."
+    short: "Pibelyde, vibrationer, en blød pedal, længere bremselængde eller en advarselslampe er gode grunde til at få bilen kontrolleret.",
+    image: "/images/brakes.png",
+    imageAlt: "Nærbillede af bremseskive og bremsekaliber",
+    relatedService: "bremser",
+    body: [
+      "Bremser slides gradvist, og fordi det sker langsomt, vænner de fleste sig til den lidt dårligere følelse uden at lægge mærke til det. Her er de fem tegn, der oftest betyder, at bremserne trænger til et kig."
+    ],
+    tips: [
+      "Pibende eller skrattende lyd under opbremsning, ofte fra en slidindikator eller metal mod metal",
+      "Vibrationer i pedal eller rat, som typisk skyldes skæve eller ujævne bremseskiver",
+      "En blød eller \"lang\" pedal, hvor bilen bremser senere end normalt",
+      "Længere bremselængde, eller en fornemmelse af at bilen ikke reagerer lige så hurtigt som før",
+      "Bilen trækker til den ene side under opbremsning, hvilket kan pege på en bremsekaliber der sidder fast"
+    ]
   },
   {
+    slug: "motorlampen-lyser-hvad-goer-du",
     title: "Hvad gør du, når motorlampen lyser?",
-    text: "En konstant lampe kræver typisk snarlig diagnose. En blinkende motorlampe kan indikere en alvorlig fejl, hvor bilen bør standses."
+    short: "En konstant lampe kræver typisk snarlig diagnose. En blinkende motorlampe kan indikere en alvorlig fejl, hvor bilen bør standses.",
+    image: "/images/diagnostics.png",
+    imageAlt: "Elektronisk fejlsøgning med diagnosetester på bil",
+    relatedService: "fejlsoegning",
+    body: [
+      "Motorlampen er en samlebetegnelse for en række forskellige fejl, og hvordan den opfører sig, siger noget om, hvor akut situationen er.",
+      "Lyser lampen konstant, betyder det som regel, at motorstyringen har registreret en fejl, den ikke selv kan rette. Det kan være alt fra en løs benzindæksel til en sensor, der giver forkerte målinger. Bilen kan som regel køres videre i en kort periode, men bør undersøges inden for de nærmeste dage.",
+      "Blinker lampen derimod, er det typisk et tegn på en alvorligere fejl, ofte relateret til fejltænding, som kan skade katalysatoren hvis bilen bliver ved med at køre. Her er rådet at sætte farten ned, finde et sikkert sted at stoppe, og kontakte et værksted, før du kører videre.",
+      "Uanset hvilken slags lampe der lyser, starter en fejlsøgning altid med at læse fejlkoden ud af bilens computer. Fejlkoden peger på et system eller en komponent, men den fortæller sjældent hele historien alene. Derfor kombinerer vi udlæsningen med målinger og en mekanisk kontrol, så vi finder den faktiske årsag, i stedet for at gætte os frem til en dyr reservedel, der måske slet ikke er problemet."
+    ],
+    tips: [
+      "Lyser lampen konstant: kør videre med omtanke, men få bilen tjekket snarest",
+      "Blinker lampen: sæt farten ned og stands et sikkert sted",
+      "Undgå at slette fejlkoden selv, før årsagen er fundet, lampen vender ofte bare tilbage",
+      "Beskriv gerne, hvornår lampen tændte, og om bilen samtidig opførte sig anderledes"
+    ]
+  },
+  {
+    slug: "sommerdaek-eller-vinterdaek",
+    title: "Sommerdæk eller vinterdæk – hvornår skal du skifte?",
+    short: "Temperatur, vejr og kørselsbehov afgør, hvornår det er tid til at skifte. Kontroller samtidig mønster og dækkenes alder.",
+    image: "/images/workshop.png",
+    imageAlt: "Dækskifte og hjulkontrol på autoværksted",
+    relatedService: "daek-og-hjul",
+    body: [
+      "Der findes ikke en fast dato for dækskifte i Danmark, kun en regel om at dækkene til enhver tid skal passe til føret. I praksis er det gummiblandingen, der afgør, hvornår det er tid til at skifte.",
+      "Sommerdæk er lavet af en hårdere gummiblanding, der holder formen og giver godt grip ved varme, men bliver stiv og mister grebet, når temperaturen falder til omkring 7 grader eller derunder. Vinterdæk bruger en blødere blanding, der bliver ved med at yde grib i kulde, men til gengæld slides hurtigere og bremser dårligere på varm asfalt.",
+      "En simpel tommelfingerregel er at skifte til vinterdæk, når temperaturen konsekvent ligger under 7 grader, typisk i løbet af oktober eller november, og skifte tilbage til sommerdæk igen i april, når frostnætterne er forbi. Vejrudsigten er en bedre guide end kalenderen alene.",
+      "Uanset årstid bør du kontrollere mønsterdybde og synlige skader ved hvert dækskifte. Lovkravet er minimum 1,6 mm, men vejgrebet forringes mærkbart længe før det, især på våde og vinterlige veje. Dæk over seks til otte år bør også kontrolleres for aldring i gummiet, selv med pænt mønster tilbage."
+    ],
+    tips: [
+      "Skift til vinterdæk, når temperaturen konsekvent er under 7 grader",
+      "Skift tilbage til sommerdæk, når frostnætterne er forbi",
+      "Tjek mønsterdybde og synlige skader ved hvert skifte",
+      "Mangler du plads til dækkene, opbevarer vi dine sæsondæk mellem skiftene"
+    ]
+  },
+  {
+    slug: "forbered-bilen-til-syn",
+    title: "Sådan forbereder du bilen til syn",
+    short: "Lys, viskere, dæk og advarselslamper er gode steder at begynde. Et synstjek kan finde flere oplagte fejl.",
+    image: "/images/hero-workshop.png",
+    imageAlt: "Bil klar til kontrol før bilsyn",
+    relatedService: "klargoring-til-syn",
+    body: [
+      "En stor del af de fejl, der giver omsyn, er enkle at opdage og udbedre på forhånd. En halv time med en tjekliste kan spare dig for en tur til synshallen mere end nødvendigt.",
+      "Synsfolkene kigger blandt andet på lys og lygter, dæk og fælge, bremser, styretøj, rudens tilstand og synlig rust i undervognen. De fleste af disse punkter kan du selv kaste et blik på, før bilen overhovedet kører ind i hallen."
+    ],
+    tips: [
+      "Tjek alle lygter: forlygter, baglygter, blinklys og nummerpladelys",
+      "Skift viskerblade, hvis de strimler, og fyld sprinklervæske på",
+      "Kontroller dækkenes mønster og lufttryk, og se efter revner i siderne",
+      "Sørg for at nummerpladerne er hele og læselige",
+      "Se efter om advarselslamper i instrumentbrættet lyser konstant"
+    ]
+  },
+  {
+    slug: "hvorfor-siger-bilen-en-ny-lyd",
+    title: "Hvorfor siger bilen en ny lyd?",
+    short: "Nye lyde ved bremsning, sving eller acceleration bør beskrives så præcist som muligt. Det gør den første fejlsøgning hurtigere.",
+    image: "/images/diagnostics.png",
+    imageAlt: "Mekaniker lytter efter lyde under bilen",
+    relatedService: "fejlsoegning",
+    body: [
+      "En ny lyd er sjældent tilfældig, og hvor og hvornår den opstår, giver ofte det første spor til, hvad der er galt.",
+      "Et metallisk bank eller klunk, når bilen kører hen over huller eller ujævnheder, peger typisk mod styretøj eller affjedring, for eksempel et slidt kuglelej eller en løs stabilisatorstang. En hvinende eller skrattende lyd ved opbremsning kommer som regel fra bremserne, ofte en slidindikator der gør præcis det, den skal.",
+      "En lyd der ændrer sig med hastigheden, uanset om du bremser, accelererer eller frikører, peger ofte mod et hjullejer eller et led i drivlinjen. En rallende eller klaprende lyd i tomgang, som forsvinder ved let gas, kan komme fra en løs varmeskærm eller et udstødningsophæng.",
+      "Jo mere præcist du kan beskrive lyden, jo hurtigere kan vi indsnævre årsagen. Beskriv gerne, om lyden kommer ved opbremsning, sving, gearskift eller på ujævnt underlag, om den ændrer sig med hastigheden, og om den kommer fra en bestemt side af bilen."
+    ],
+    tips: [
+      "Bank eller klunk over huller: ofte styretøj eller affjedring",
+      "Hvin ved opbremsning: som regel bremserne",
+      "Lyd der følger hastigheden: kig mod hjullejer eller drivline",
+      "Rallen i tomgang: tjek varmeskjolde og udstødningsophæng"
+    ]
   }
 ];
+
+export function getKnowledge(slug) {
+  return knowledge.find((article) => article.slug === slug);
+}
 
 export function getService(slug) {
   return services.find((service) => service.slug === slug);

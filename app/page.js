@@ -121,13 +121,13 @@ export default function Home() {
           <Link className="text-link" href="/viden">Se al viden <Arrow /></Link>
         </div>
         <div className="knowledge-grid">
-          {knowledge.map((article, index) => (
-            <article key={article.title}>
+          {knowledge.slice(0, 3).map((article, index) => (
+            <Link href={`/viden/${article.slug}`} key={article.slug}>
               <span>0{index + 1}</span>
               <h3>{article.title}</h3>
-              <p>{article.text}</p>
+              <p>{article.short}</p>
               <span className="knowledge-read-more">Læs mere <Arrow /></span>
-            </article>
+            </Link>
           ))}
         </div>
       </section>

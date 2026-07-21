@@ -10,13 +10,6 @@ export const metadata = {
   alternates: { canonical: "/viden" }
 };
 
-const articles = [
-  ...knowledge,
-  { title: "Sommerdæk eller vinterdæk?", text: "Temperatur, vejr og kørselsbehov afgør, hvornår det er tid til at skifte. Kontroller samtidig mønster og dækkenes alder." },
-  { title: "Sådan forbereder du bilen til syn", text: "Lys, viskere, dæk og advarselslamper er gode steder at begynde. Et synstjek kan finde flere oplagte fejl." },
-  { title: "Hvorfor siger bilen en ny lyd?", text: "Nye lyde ved bremsning, sving eller acceleration bør beskrives så præcist som muligt. Det gør den første fejlsøgning hurtigere." }
-];
-
 export default function KnowledgePage() {
   return (
     <>
@@ -24,13 +17,13 @@ export default function KnowledgePage() {
       <section className="knowledge-page section">
         <div className="section-marker"><span>BA / VIDEN</span><span>Praktiske råd</span></div>
         <div className="knowledge-grid large">
-          {articles.map((article, index) => (
-            <article key={article.title}>
+          {knowledge.map((article, index) => (
+            <Link href={`/viden/${article.slug}`} key={article.slug}>
               <span>{String(index + 1).padStart(2, "0")}</span>
               <h2>{article.title}</h2>
-              <p>{article.text}</p>
+              <p>{article.short}</p>
               <span className="knowledge-read-more">Læs mere <Arrow /></span>
-            </article>
+            </Link>
           ))}
         </div>
         <div className="knowledge-note">
