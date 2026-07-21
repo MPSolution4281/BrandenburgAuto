@@ -4,7 +4,7 @@ export const site = {
   url: "https://www.brandenburgauto.dk",
   phoneDisplay: "47 47 00 11",
   phone: "+4547470011",
-  email: "Joachim@brandenburgauto.dk",
+  email: "brandenburg.autoservice@gmail.com",
   address: "Lundemarksvej 29, 4300 Holbæk",
   street: "Lundemarksvej 29",
   postalCode: "4300",

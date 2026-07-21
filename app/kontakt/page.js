@@ -21,8 +21,8 @@ export default function ContactPage() {
         </div>
         <div className="form-panel">
           <span className="kicker dark">Forespørgsel</span>
-          <h2>Klargør en mail til værkstedet.</h2>
-          <p>Formularen åbner din egen mail-app med oplysningerne udfyldt. Du sender først beskeden, når du selv trykker send.</p>
+          <h2>Send en besked til værkstedet.</h2>
+          <p>Udfyld formularen, så vender vi tilbage hurtigst muligt.</p>
           <BookingForm />
         </div>
       </section>
