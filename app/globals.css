@@ -90,7 +90,10 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .text-link svg { width: 20px; }
 .owner-feature { display: grid; grid-template-columns: 2.2fr 1fr; min-height: 690px; margin-left: 9vw; }
 .owner-photo { position: relative; min-height: 690px; overflow: hidden; background: #222; }
-.owner-photo img { object-fit: cover; object-position: center; }
+.owner-photo-bg { z-index: 0; object-fit: cover; object-position: center; opacity: .5; filter: grayscale(.2); }
+.owner-photo::after { content: ""; position: absolute; z-index: 0; inset: 0; background: linear-gradient(90deg, rgba(11,13,12,.75) 0%, rgba(11,13,12,.35) 45%, rgba(11,13,12,.15) 100%); }
+.owner-grid { z-index: 1; }
+.owner-photo-cutout { z-index: 2; object-fit: contain; object-position: right bottom; }
 .owner-card { position: relative; padding: 45px; display: flex; flex-direction: column; justify-content: space-between; background: var(--green); }
 .owner-card > span { font-size: 9px; font-weight: 800; letter-spacing: .15em; }
 .owner-card blockquote { margin: 0; font-family: var(--display); font-size: clamp(2.5rem, 4vw, 4.5rem); font-weight: 900; line-height: .95; text-transform: uppercase; }

@@ -51,8 +51,9 @@ export default function Home() {
         </div>
         <div className="owner-feature">
           <div className="owner-photo">
+            <Image className="owner-photo-bg" src="/images/hero-workshop.png" fill sizes="(max-width: 800px) 100vw, 62vw" alt="" aria-hidden="true" />
             <div className="owner-grid" />
-            <Image src="/images/workshop.png" fill sizes="(max-width: 800px) 100vw, 62vw" alt="Joachim Brandenburg på værkstedet i Holbæk" />
+            <Image className="owner-photo-cutout" src="/images/workshop-owner.png" fill sizes="(max-width: 800px) 100vw, 62vw" alt="Joachim Brandenburg på værkstedet i Holbæk" />
           </div>
           <div className="owner-card">
             <span>01 / INDEHAVER</span>
