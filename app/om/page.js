@@ -4,7 +4,7 @@ import ContactBand from "@/components/ContactBand";
 
 export const metadata = {
   title: "Om Joachim og værkstedet i Holbæk",
-  description: "Mød Joachim Brandenburg og læs om Brandenburg Autoservice på Lundemarksvej i Holbæk.",
+  description: "Mød Joachim Brandenburg og læs om Brandenburg Autoservice på Bødkervej i Holbæk.",
   alternates: { canonical: "/om" }
 };
 

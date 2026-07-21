@@ -26,7 +26,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="hero-side">LUNDEMARKSVEJ 29 · 4300 HOLBÆK</div>
+        <div className="hero-side">BØDKERVEJ 9B · 4300 HOLBÆK</div>
       </section>
 
       <section className="trust-strip">

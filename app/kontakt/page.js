@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="contact-info">
           <div><span>Telefon</span><a href={`tel:${site.phone}`}>{site.phoneDisplay}</a><p>Hurtigst til tidsbestilling og akutte spørgsmål.</p></div>
           <div><span>E-mail</span><a href={`mailto:${site.email}`}>{site.email}</a><p>Send gerne registreringsnummer og en kort beskrivelse.</p></div>
-          <div><span>Adresse</span><a href="https://www.google.com/maps/search/?api=1&query=Lundemarksvej+29+4300+Holbæk" target="_blank" rel="noreferrer">{site.street}<br />{site.postalCode} {site.city}</a><p>Der er adgang til værkstedet fra Lundemarksvej.</p></div>
+          <div><span>Adresse</span><a href="https://www.google.com/maps/search/?api=1&query=Bødkervej+9B+4300+Holbæk" target="_blank" rel="noreferrer">{site.street}<br />{site.postalCode} {site.city}</a><p>Ring gerne, hvis du er i tvivl om vejen.</p></div>
           <div><span>Åbningstider</span>{site.hours.map(([day, time]) => <p className="hours" key={day}><strong>{day}</strong><b>{time}</b></p>)}</div>
         </div>
         <div className="form-panel">
@@ -27,8 +27,8 @@ export default function ContactPage() {
         </div>
       </section>
       <section className="map-band">
-        <div><span className="kicker">Find værkstedet</span><h2>Lundemarksvej 29<br />4300 Holbæk</h2></div>
-        <a className="button primary" href="https://www.google.com/maps/search/?api=1&query=Lundemarksvej+29+4300+Holbæk" target="_blank" rel="noreferrer">Åbn rutevejledning</a>
+        <div><span className="kicker">Find værkstedet</span><h2>Bødkervej 9B<br />4300 Holbæk</h2></div>
+        <a className="button primary" href="https://www.google.com/maps/search/?api=1&query=Bødkervej+9B+4300+Holbæk" target="_blank" rel="noreferrer">Åbn rutevejledning</a>
       </section>
     </>
   );

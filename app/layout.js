@@ -59,8 +59,8 @@ const localBusiness = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 55.7139,
-    longitude: 11.7158
+    latitude: 55.696126,
+    longitude: 11.711696
   },
   areaServed: ["Holbæk", "Tuse", "Vipperød", "Jyderup", "Svinninge"],
   openingHoursSpecification: [
@@ -75,8 +75,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="geo.region" content="DK-085" />
         <meta name="geo.placename" content="Holbæk" />
-        <meta name="geo.position" content="55.7139;11.7158" />
-        <meta name="ICBM" content="55.7139, 11.7158" />
+        <meta name="geo.position" content="55.696126;11.711696" />
+        <meta name="ICBM" content="55.696126, 11.711696" />
       </head>
       <body>
         <a className="skip-link" href="#main">Gå til indhold</a>
