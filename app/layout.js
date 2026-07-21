@@ -19,8 +19,8 @@ export const metadata = {
     template: "%s | Brandenburg Autoservice"
   },
   description:
-    "Lokalt autoværksted i Holbæk. Få hjælp til autoservice, bremser, fejlsøgning, dæk og reparation med personlig kontakt og klare aftaler.",
-  keywords: ["autoværksted Holbæk", "bilservice Holbæk", "bremser Holbæk", "fejlsøgning bil", "dækskifte Holbæk", "Brandenburg Autoservice", "bilreparation Holbæk", "syn klargøring"],
+    "Lokalt autoværksted i Holbæk. Få hjælp til autoservice, bremser, fejlsøgning, dæk, A/C service, 4-hjulsudmåling og reparation med personlig kontakt og klare aftaler.",
+  keywords: ["autoværksted Holbæk", "bilservice Holbæk", "bremser Holbæk", "fejlsøgning bil", "dækskifte Holbæk", "opbevaring af dæk Holbæk", "dækhotel Holbæk", "A/C service Holbæk", "klimaanlæg bil Holbæk", "4-hjulsudmåling Holbæk", "hjulvinkler Holbæk", "Brandenburg Autoservice", "bilreparation Holbæk", "syn klargøring"],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

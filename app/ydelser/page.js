@@ -6,7 +6,7 @@ import { services } from "@/data/site";
 
 export const metadata = {
   title: "Autoservice og bilreparation i Holbæk",
-  description: "Se ydelser hos Brandenburg Autoservice i Holbæk: serviceeftersyn, bremser, fejlsøgning, dæk, synstjek og reparation.",
+  description: "Se ydelser hos Brandenburg Autoservice i Holbæk: serviceeftersyn, bremser, fejlsøgning, dæk og dækopbevaring, A/C service, 4-hjulsudmåling, synstjek og reparation.",
   alternates: { canonical: "/ydelser" }
 };
 

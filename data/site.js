@@ -79,16 +79,17 @@ export const services = [
     title: "Dæk & hjul",
     short: "Dækskifte, kontrol og korrekt montering til sæsonen.",
     description:
-      "Dækskifte og hjulservice i Holbæk. Vi kontrollerer mønster, dæktryk og dækkenes tilstand, så bilen står sikkert på vejen.",
+      "Dækskifte, hjulservice og opbevaring af dæk i Holbæk. Vi kontrollerer mønster, dæktryk og dækkenes tilstand, og opbevarer dine dæk mellem sæsonerne.",
     image: "/images/workshop.png",
     imageAlt: "Joachim Brandenburg på autoværkstedet i Holbæk",
     intro:
-      "Dækkene er bilens kontakt med vejen. Ved hjulskifte kontrollerer vi synlig slitage, mønster og dæktryk og monterer hjulene korrekt, så du er klar til den kommende sæson.",
-    benefits: ["Sommer- og vinterhjul", "Kontrol af mønster og skader", "Korrekt dæktryk", "Efterspænding efter aftale"],
+      "Dækkene er bilens kontakt med vejen. Ved hjulskifte kontrollerer vi synlig slitage, mønster og dæktryk og monterer hjulene korrekt, så du er klar til den kommende sæson. Vi opbevarer også dine sæsondæk mellem skiftene, så du slipper for at finde plads i garage eller kælder.",
+    benefits: ["Sommer- og vinterhjul", "Kontrol af mønster og skader", "Korrekt dæktryk", "Opbevaring af dæk mellem sæsonerne"],
     faq: [
       ["Hvornår bør jeg skifte mellem sommer- og vinterdæk?", "Skift efter temperatur og vejr frem for kalenderen alene. Vinterdæk fungerer bedst i den kolde del af året."],
       ["Hvor meget mønster skal et dæk have?", "Lovkravet er minimum 1,6 mm, men vejgrebet forringes tidligere, især på våde og vinterlige veje."],
-      ["Hvorfor slides mine dæk skævt?", "Det kan skyldes forkert dæktryk, hjulvinkler eller slid i undervognen. Vi kan hjælpe med at vurdere årsagen."]
+      ["Hvorfor slides mine dæk skævt?", "Det kan skyldes forkert dæktryk, hjulvinkler eller slid i undervognen. Vi kan hjælpe med at vurdere årsagen."],
+      ["Kan I opbevare mine dæk mellem sæsonerne?", "Ja. Vi opbevarer dine sæsondæk hos os, så de er klar til afhentning eller montering, når du skal skifte igen."]
     ]
   },
   {
@@ -125,6 +126,42 @@ export const services = [
       ["Hvilke bilmærker reparerer I?", "Vi arbejder med de fleste almindelige personbiler. Kontakt os gerne med registreringsnummer og problem, så vi kan vurdere opgaven."],
       ["Kan jeg få et prisoverslag?", "Ja, når vi har de nødvendige oplysninger eller har undersøgt bilen. Ved skjulte fejl kan endelig pris afhænge af diagnosen."],
       ["Bestiller I dele på forhånd?", "Når fejlen og løsningen er aftalt, finder vi passende reservedele og aftaler pris og levering med dig."]
+    ]
+  },
+  {
+    slug: "ac-service",
+    number: "07",
+    title: "A/C service",
+    short: "Kontrol og opfyldning af klimaanlægget, så køling og affugtning virker som den skal.",
+    description:
+      "A/C service i Holbæk med kontrol af kølemiddel, tæthed og funktion. Vi sikrer, at klimaanlægget køler effektivt og holder ruderne fri for dug.",
+    image: "/images/workshop.png",
+    imageAlt: "Mekaniker udfører A/C service på bilens klimaanlæg",
+    intro:
+      "Et klimaanlæg mister kølemiddel over tid, selv uden en synlig utæthed. Vi kontrollerer tryk og mængde, leder efter utætheder og fylder op, så anlægget køler effektivt og affugter ruderne korrekt.",
+    benefits: ["Kontrol af kølemiddel og tryk", "Lækagesøgning på anlægget", "Påfyldning efter behov", "Rens på forespørgsel"],
+    faq: [
+      ["Hvor ofte skal klimaanlægget have service?", "Vi anbefaler kontrol cirka hvert 1.-2. år, da kølemiddel langsomt siver ud, selv uden en fejl på anlægget."],
+      ["Hvorfor køler klimaanlægget dårligere om sommeren?", "Oftest skyldes det for lidt kølemiddel. Er niveauet lavt, kan der også være en utæthed, som bør findes, før der fyldes op."],
+      ["Kan et dårligt klimaanlæg dugge ruderne indefra?", "Ja. Klimaanlægget affugter kabinen. Virker det ikke optimalt, dugger ruderne lettere i fugtigt vejr."]
+    ]
+  },
+  {
+    slug: "4-hjulsudmaaling",
+    number: "08",
+    title: "4-hjulsudmåling",
+    short: "Måling og justering af hjulvinkler, så bilen kører lige og dækkene slides jævnt.",
+    description:
+      "4-hjulsudmåling i Holbæk med præcis måling af hjulvinkler. Vi retter styretøjet ind, så bilen ikke trækker til siden, og dækkene holder længere.",
+    image: "/images/diagnostics.png",
+    imageAlt: "4-hjulsudmåling og hjulvinkelmåling på autoværksted",
+    intro:
+      "Skæve hjulvinkler kan opstå efter et hul i vejen, en kantstensparkering eller almindeligt slid. Vi måler alle fire hjul og justerer vinklerne, så bilen kører lige, og dækkene ikke slides skævt.",
+    benefits: ["Måling af alle fire hjul", "Justering af styretøj og vinkler", "Jævnere dækslid", "Bilen kører lige og roligt"],
+    faq: [
+      ["Hvornår bør jeg få lavet en 4-hjulsudmåling?", "Typiske tegn er, at bilen trækker til den ene side, rattet ikke står lige, eller dækkene slides skævt."],
+      ["Kan et hul i vejen påvirke hjulvinklerne?", "Ja, et hårdt slag mod et hjul, fx fra et hul eller en kantsten, kan ændre vinklerne selv uden synlige skader."],
+      ["Skal jeg have lavet udmåling efter dækskifte?", "Ikke nødvendigvis ved almindeligt dækskifte, men det er en god idé, hvis bilen trækker til siden eller har fået nye styretøjsdele."]
     ]
   }
 ];
