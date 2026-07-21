@@ -367,6 +367,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
   .article-image { min-height: 62vw; }
   .article-body { max-width: none; margin-top: 40px; }
   .owner-feature { margin-left: 0; grid-template-columns: 1.7fr 1fr; }
+  .owner-photo-cutout { object-position: right bottom; }
   .service-row { grid-template-columns: 55px 1fr 50px; }
   .service-row p { grid-column: 2; }
   .service-arrow { grid-column: 3; grid-row: 1; }
