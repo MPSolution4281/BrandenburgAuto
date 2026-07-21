@@ -173,6 +173,8 @@ export const knowledge = [
     short: "Serviceintervallet afhænger både af kilometer, tid og bilens brug. Mange korte ture kan belaste olie, batteri og bremser mere end forventet.",
     image: "/images/hero-workshop.png",
     imageAlt: "Bil på lift til service på autoværksted",
+    bodyImage: "/images/workshop-owner.png",
+    bodyImageAlt: "Joachim Brandenburg klargør service",
     relatedService: "autoservice",
     body: [
       "De fleste bilproducenter angiver et serviceinterval i servicebogen eller i bilens display, som regel en kombination af kilometer og tid, for eksempel hver 15.000 km eller én gang om året, alt efter hvad der kommer først. Det tal er et udgangspunkt, ikke en garanti for at bilen er fejlfri lige til næste service.",
@@ -193,6 +195,8 @@ export const knowledge = [
     short: "Pibelyde, vibrationer, en blød pedal, længere bremselængde eller en advarselslampe er gode grunde til at få bilen kontrolleret.",
     image: "/images/brakes.png",
     imageAlt: "Nærbillede af bremseskive og bremsekaliber",
+    bodyImage: "/images/hero-workshop.png",
+    bodyImageAlt: "Bil på lift under bremsekontrol",
     relatedService: "bremser",
     body: [
       "Bremser slides gradvist, og fordi det sker langsomt, vænner de fleste sig til den lidt dårligere følelse uden at lægge mærke til det. Her er de fem tegn, der oftest betyder, at bremserne trænger til et kig."
@@ -211,6 +215,8 @@ export const knowledge = [
     short: "En konstant lampe kræver typisk snarlig diagnose. En blinkende motorlampe kan indikere en alvorlig fejl, hvor bilen bør standses.",
     image: "/images/diagnostics.png",
     imageAlt: "Elektronisk fejlsøgning med diagnosetester på bil",
+    bodyImage: "/images/workshop-owner.png",
+    bodyImageAlt: "Joachim Brandenburg foretager fejlsøgning",
     relatedService: "fejlsoegning",
     body: [
       "Motorlampen er en samlebetegnelse for en række forskellige fejl, og hvordan den opfører sig, siger noget om, hvor akut situationen er.",
@@ -231,6 +237,8 @@ export const knowledge = [
     short: "Temperatur, vejr og kørselsbehov afgør, hvornår det er tid til at skifte. Kontroller samtidig mønster og dækkenes alder.",
     image: "/images/workshop.png",
     imageAlt: "Dækskifte og hjulkontrol på autoværksted",
+    bodyImage: "/images/hero-workshop.png",
+    bodyImageAlt: "Bil klar til dækskifte på værkstedet",
     relatedService: "daek-og-hjul",
     body: [
       "Der findes ikke en fast dato for dækskifte i Danmark, kun en regel om at dækkene til enhver tid skal passe til føret. I praksis er det gummiblandingen, der afgør, hvornår det er tid til at skifte.",
@@ -251,6 +259,8 @@ export const knowledge = [
     short: "Lys, viskere, dæk og advarselslamper er gode steder at begynde. Et synstjek kan finde flere oplagte fejl.",
     image: "/images/hero-workshop.png",
     imageAlt: "Bil klar til kontrol før bilsyn",
+    bodyImage: "/images/diagnostics.png",
+    bodyImageAlt: "Gennemgang af bil før synstjek",
     relatedService: "klargoring-til-syn",
     body: [
       "En stor del af de fejl, der giver omsyn, er enkle at opdage og udbedre på forhånd. En halv time med en tjekliste kan spare dig for en tur til synshallen mere end nødvendigt.",
@@ -270,6 +280,8 @@ export const knowledge = [
     short: "Nye lyde ved bremsning, sving eller acceleration bør beskrives så præcist som muligt. Det gør den første fejlsøgning hurtigere.",
     image: "/images/diagnostics.png",
     imageAlt: "Mekaniker lytter efter lyde under bilen",
+    bodyImage: "/images/brakes.png",
+    bodyImageAlt: "Kontrol af bremse- og hjulophæng",
     relatedService: "fejlsoegning",
     body: [
       "En ny lyd er sjældent tilfældig, og hvor og hvornår den opstår, giver ofte det første spor til, hvad der er galt.",

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactBand from "@/components/ContactBand";
@@ -49,24 +50,33 @@ export default async function KnowledgeArticlePage({ params }) {
   return (
     <>
       <PageHero eyebrow="Viden fra værkstedet" title={article.title} lead={article.short} image={article.image} imageAlt={article.imageAlt} />
-      <section className="service-detail section">
+      <section className="article section">
         <div className="section-marker"><span>BA / VIDEN</span><span>{article.title}</span></div>
-        <div className="service-detail-grid">
+        <div className="article-grid">
           <div>
             <span className="kicker dark">Godt at vide</span>
             <h2>{article.title}</h2>
+            <p className="large-copy">{article.body[0]}</p>
           </div>
-          <div>
-            {article.body.map((paragraph) => <p className="large-copy" key={paragraph.slice(0, 30)}>{paragraph}</p>)}
-            {article.tips && (
+          {article.bodyImage && (
+            <div className="article-image">
+              <Image src={article.bodyImage} fill sizes="(max-width: 1000px) 100vw, 40vw" alt={article.bodyImageAlt || ""} />
+            </div>
+          )}
+        </div>
+        <div className="article-body">
+          {article.body.slice(1).map((paragraph) => <p key={paragraph.slice(0, 30)}>{paragraph}</p>)}
+          {article.tips && (
+            <div className="article-tips">
+              <span>Kort fortalt</span>
               <ul className="check-list">
                 {article.tips.map((tip) => <li key={tip}>{tip}</li>)}
               </ul>
-            )}
-            {relatedService && (
-              <Link className="text-link" href={`/ydelser/${relatedService.slug}`}>Se {relatedService.title.toLowerCase()} <Arrow /></Link>
-            )}
-          </div>
+            </div>
+          )}
+          {relatedService && (
+            <Link className="text-link" href={`/ydelser/${relatedService.slug}`}>Se {relatedService.title.toLowerCase()} <Arrow /></Link>
+          )}
         </div>
       </section>
       <section className="next-services section">
