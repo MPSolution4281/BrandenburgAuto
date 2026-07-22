@@ -190,7 +190,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .footer-label { display: block; margin-bottom: 24px; color: var(--green); font-size: 9px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
 .footer-top > div > a, .footer-top > div > p { display: block; margin: 0 0 9px; color: #b3b6b1; font-size: 13px; line-height: 1.65; }
 .footer-top > div > a:hover { color: var(--green); }
-.footer-bottom { margin-top: 60px; padding-top: 24px; display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.15); color: #676b67; font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+.footer-bottom { margin-top: 60px; padding-top: 24px; display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid rgba(255,255,255,.15); color: #676b67; font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+.footer-bottom a:hover { color: var(--green); }
 
 /* ─── PAGE HERO ──────────────────────────────────────────── */
 .page-hero { position: relative; min-height: 76vh; padding-top: 94px; display: flex; align-items: flex-end; overflow: hidden; color: white; background: var(--ink); }
@@ -251,6 +252,27 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .article-tips .check-list { margin: 20px 0 0; border-top: none; }
 .article-tips .check-list li:last-child { border-bottom: none; }
 .article-tips + .text-link { margin-top: 40px; }
+
+/* ─── LEGAL ──────────────────────────────────────────────── */
+.legal { padding-bottom: 120px; }
+.legal > div { max-width: 720px; padding: 55px 0; border-top: 1px solid var(--line); }
+.legal > div:first-child { padding-top: 100px; }
+.legal h2 { margin: 0 0 20px; font-size: clamp(1.8rem, 3vw, 2.4rem); }
+.legal p { margin: 0 0 16px; color: #4f534f; line-height: 1.75; }
+.legal p:last-child { margin-bottom: 0; }
+.legal a { color: var(--green-dark); text-decoration: underline; }
+
+/* ─── COOKIE BANNER ──────────────────────────────────────── */
+.cookie-banner {
+  position: fixed; z-index: 90; left: 20px; right: 20px; bottom: 20px; max-width: 620px; margin: 0 auto;
+  padding: 26px 28px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;
+  color: white; background: var(--ink); box-shadow: 0 16px 50px rgba(0,0,0,.35);
+}
+.cookie-banner p { flex: 1 1 260px; min-width: 0; margin: 0; font-size: 13px; line-height: 1.6; color: #c7cac5; }
+.cookie-banner p a { color: var(--green); text-decoration: underline; }
+.cookie-banner-actions { display: flex; gap: 10px; flex-shrink: 0; }
+.cookie-banner button { border: 0; cursor: pointer; }
+.cookie-banner .button.ghost { border-color: rgba(255,255,255,.4); }
 
 /* ─── NOT FOUND ──────────────────────────────────────────── */
 .not-found { position: relative; padding-top: 220px; padding-bottom: 140px; overflow: hidden; color: white; background: var(--ink); }
@@ -435,6 +457,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
   .page-hero { min-height: 70vh; padding-top: 78px; }
   .not-found { padding-top: 150px; padding-bottom: 90px; }
   .not-found-number { top: 30px; }
+  .cookie-banner { left: 12px; right: 12px; bottom: 12px; padding: 22px; flex-direction: column; align-items: flex-start; }
+  .cookie-banner-actions { width: 100%; }
+  .cookie-banner-actions .button { flex: 1; }
   .page-hero h1 { font-size: clamp(3.2rem, 15vw, 6rem); }
   .page-hero-content { padding: 90px 7vw 55px; }
   .page-hero-index { display: none; }

@@ -29,6 +29,7 @@ export default function SiteFooter() {
       </div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Brandenburg Autoservice · CVR {site.cvr}</span>
+        <Link href="/privatliv">Privatlivspolitik</Link>
         <span>Autoværksted i Holbæk</span>
       </div>
     </footer>

@@ -2,6 +2,8 @@ import "./globals.css";
 import { Inter, Roboto_Condensed } from "next/font/google";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import Analytics from "@/components/Analytics";
+import CookieConsent from "@/components/CookieConsent";
 import { site } from "@/data/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -83,6 +85,8 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
+        <CookieConsent />
+        <Analytics />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }} />
       </body>
     </html>
