@@ -62,7 +62,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .hero-lead { max-width: 770px; margin-top: 42px; display: grid; grid-template-columns: 1fr auto; gap: 45px; align-items: flex-end; animation: fade-up .8s .4s both; }
 .hero-lead p { margin: 0; font-size: clamp(1rem, 1.5vw, 1.22rem); line-height: 1.65; }
 .hero-lead > div { display: flex; gap: 10px; }
-.button { display: inline-flex; justify-content: center; align-items: center; min-height: 52px; padding: 0 21px; font-size: 11px; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; transition: .2s; }
+.button { display: inline-flex; justify-content: center; align-items: center; min-height: 52px; padding: 0 21px; font-size: 11px; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; transition: .2s; appearance: none; background: none; border: 0; cursor: pointer; }
 .button.primary { color: var(--ink); background: var(--green); }
 .button.primary:hover { background: white; }
 .button.ghost { color: white; border: 1px solid rgba(255,255,255,.45); }
@@ -271,8 +271,6 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .cookie-banner p { flex: 1 1 260px; min-width: 0; margin: 0; font-size: 13px; line-height: 1.6; color: #c7cac5; }
 .cookie-banner p a { color: var(--green); text-decoration: underline; }
 .cookie-banner-actions { display: flex; gap: 10px; flex-shrink: 0; }
-.cookie-banner button { border: 0; cursor: pointer; }
-.cookie-banner .button.ghost { border-color: rgba(255,255,255,.4); }
 
 /* ─── NOT FOUND ──────────────────────────────────────────── */
 .not-found { position: relative; padding-top: 220px; padding-bottom: 140px; overflow: hidden; color: white; background: var(--ink); }
