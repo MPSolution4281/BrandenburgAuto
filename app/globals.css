@@ -447,6 +447,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
   .knowledge-heading h2 { font-size: clamp(2.6rem, 11vw, 3.7rem); }
   .knowledge-grid, .knowledge-grid.large, .listing-grid { grid-template-columns: 1fr; }
   .knowledge-grid a, .listing-card { min-height: 300px; }
+  .listing-card h2 { font-size: clamp(1.8rem, 8.5vw, 4rem); }
+  .knowledge-grid h2, .knowledge-grid h3 { font-size: 1.9rem; }
   .contact-band { padding: 80px 7vw; gap: 50px; }
   .contact-band h2 { font-size: 4.5rem; }
   .contact-band-actions a { font-size: 1.5rem; }
