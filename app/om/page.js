@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="about-grid">
           <div className="portrait-panel">
             <div className="portrait-number">01</div>
-            <Image src="/images/workshop.png" fill sizes="(max-width: 800px) 100vw, 48vw" alt="Joachim Brandenburg på værkstedet" />
+            <Image src="/images/workshop-owner.png" fill sizes="(max-width: 800px) 100vw, 48vw" alt="Joachim Brandenburg på værkstedet" />
           </div>
           <article>
             <span className="kicker dark">Faglighed i øjenhøjde</span>

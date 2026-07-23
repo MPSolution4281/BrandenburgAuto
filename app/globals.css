@@ -283,7 +283,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .about { padding-bottom: 120px; }
 .about-grid { display: grid; grid-template-columns: .9fr 1fr; gap: 9vw; padding-top: 100px; }
 .portrait-panel { position: relative; min-height: 720px; overflow: hidden; background: var(--ink); }
-.portrait-panel img { object-fit: contain; object-position: bottom center; z-index: 1; }
+.portrait-panel img { object-fit: contain; object-position: right bottom; z-index: 1; }
 .portrait-number { position: absolute; z-index: 0; top: 20px; left: 20px; color: #202420; font-family: var(--display); font-size: 18rem; font-weight: 900; line-height: 1; }
 .about-grid article { align-self: center; }
 .about-grid h2 { margin: 25px 0 35px; font-size: clamp(3.7rem, 6vw, 6.7rem); }
