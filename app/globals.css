@@ -427,6 +427,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
   .intro, .services-section, .process, .knowledge-preview, .knowledge-page, .listing, .service-detail, .faq, .about, .article { padding-bottom: 85px; }
   .intro-grid, .process-grid, .service-detail-grid, .faq-grid, .about-grid, .article-grid { padding-top: 75px; }
   .article-tips { padding: 30px 25px; }
+  .service-detail-grid h2, .faq-grid h2 { font-size: clamp(2.6rem, 12vw, 5.4rem); }
+  .about-grid h2 { font-size: clamp(2.6rem, 12vw, 5.4rem); }
   .intro h2, .services-title h2, .process h2 { font-size: clamp(2.8rem, 13vw, 5.4rem); }
   .owner-feature { grid-template-columns: 1fr; min-height: 0; }
   .owner-photo { min-height: 120vw; }
@@ -442,7 +444,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
   .diagnostic-copy h2 { font-size: clamp(2.7rem, 12.5vw, 5rem); }
   .diagnostic-number { font-size: 10rem; }
   .knowledge-heading { align-items: flex-start; flex-direction: column; }
-  .knowledge-heading h2 { font-size: 3.7rem; }
+  .knowledge-heading h2 { font-size: clamp(2.6rem, 11vw, 3.7rem); }
   .knowledge-grid, .knowledge-grid.large, .listing-grid { grid-template-columns: 1fr; }
   .knowledge-grid a, .listing-card { min-height: 300px; }
   .contact-band { padding: 80px 7vw; gap: 50px; }
