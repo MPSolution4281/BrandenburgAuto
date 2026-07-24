@@ -5,6 +5,8 @@ import ContactBand from "@/components/ContactBand";
 import { Arrow } from "@/components/Icons";
 import { getService, services, site } from "@/data/site";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return services.map(({ slug }) => ({ slug }));
 }

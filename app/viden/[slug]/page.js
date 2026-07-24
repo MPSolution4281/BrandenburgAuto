@@ -6,6 +6,8 @@ import ContactBand from "@/components/ContactBand";
 import { Arrow } from "@/components/Icons";
 import { knowledge, getKnowledge, getService, site } from "@/data/site";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return knowledge.map(({ slug }) => ({ slug }));
 }
