@@ -206,7 +206,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .review-stars button { padding: 0; background: none; border: 0; cursor: pointer; }
 .review-stars svg { width: 34px; height: 34px; fill: none; stroke: var(--muted); stroke-width: 1.5; transition: fill .15s, stroke .15s; }
 .review-stars svg.filled { fill: var(--green); stroke: var(--green-dark); }
-.review-hint { margin: 14px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.review-hint { margin: 14px 0 0; min-height: 21px; color: var(--muted); font-size: 13px; line-height: 1.6; }
 .review-feedback-form { display: grid; gap: 16px; margin-top: 22px; }
 .review-feedback-form textarea {
   padding: 14px 16px; color: var(--ink); background: white; border: 1px solid var(--line); font-size: 14px; font-family: inherit; resize: vertical;

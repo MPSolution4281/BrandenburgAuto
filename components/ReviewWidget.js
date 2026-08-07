@@ -76,7 +76,7 @@ export default function ReviewWidget() {
                     </button>
                   ))}
                 </div>
-                {hovered > 0 && <p className="review-hint">{LABELS[hovered - 1]}</p>}
+                <p className="review-hint">{hovered > 0 ? LABELS[hovered - 1] : " "}</p>
               </>
             )}
 
