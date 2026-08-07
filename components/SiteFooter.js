@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { services, site } from "@/data/site";
+import ReviewWidget from "./ReviewWidget";
 
 export default function SiteFooter() {
   return (
@@ -31,6 +32,7 @@ export default function SiteFooter() {
         <span>© {new Date().getFullYear()} Brandenburg Autoservice · CVR {site.cvr}</span>
         <Link href="/privatliv">Privatlivspolitik</Link>
         <span>Autoværksted i Holbæk</span>
+        <ReviewWidget />
       </div>
     </footer>
   );

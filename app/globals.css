@@ -192,6 +192,27 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .footer-top > div > a:hover { color: var(--green); }
 .footer-bottom { margin-top: 60px; padding-top: 24px; display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid rgba(255,255,255,.15); color: #676b67; font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
 .footer-bottom a:hover { color: var(--green); }
+.review-trigger { appearance: none; padding: 0; color: #676b67; background: none; border: 0; font: inherit; font-size: 9px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; transition: color .2s; }
+.review-trigger:hover { color: var(--green); }
+
+/* ─── REVIEW MODAL ───────────────────────────────────────── */
+.review-overlay { position: fixed; inset: 0; z-index: 200; display: flex; justify-content: center; align-items: center; padding: 20px; background: rgba(11,13,12,.75); backdrop-filter: blur(2px); }
+.review-modal { position: relative; width: 100%; max-width: 420px; padding: 45px 40px; color: var(--ink); background: var(--paper); }
+.review-close { position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; display: flex; justify-content: center; align-items: center; color: var(--ink); background: none; border: 0; font-size: 22px; line-height: 1; cursor: pointer; transition: color .2s; }
+.review-close:hover { color: var(--green-dark); }
+.review-kicker { display: block; margin-bottom: 10px; color: var(--green-dark); font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.review-modal h3 { margin: 0 0 20px; font-family: var(--display); font-size: 1.7rem; font-weight: 900; text-transform: uppercase; }
+.review-stars { display: flex; gap: 10px; }
+.review-stars button { padding: 0; background: none; border: 0; cursor: pointer; }
+.review-stars svg { width: 34px; height: 34px; fill: none; stroke: var(--muted); stroke-width: 1.5; transition: fill .15s, stroke .15s; }
+.review-stars svg.filled { fill: var(--green); stroke: var(--green-dark); }
+.review-hint { margin: 14px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.review-feedback-form { display: grid; gap: 16px; margin-top: 22px; }
+.review-feedback-form textarea {
+  padding: 14px 16px; color: var(--ink); background: white; border: 1px solid var(--line); font-size: 14px; font-family: inherit; resize: vertical;
+}
+.review-feedback-form textarea:focus { border-color: var(--ink); }
+.review-modal .button { width: 100%; margin-top: 4px; }
 
 /* ─── PAGE HERO ──────────────────────────────────────────── */
 .page-hero { position: relative; min-height: 76vh; padding-top: 94px; display: flex; align-items: flex-end; overflow: hidden; color: white; background: var(--ink); }
