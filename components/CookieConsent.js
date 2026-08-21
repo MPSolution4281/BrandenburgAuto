@@ -8,6 +8,9 @@ export default function CookieConsent() {
 
   useEffect(() => {
     if (!localStorage.getItem("cookie-consent")) setVisible(true);
+    const onOpen = () => setVisible(true);
+    window.addEventListener("open-cookie-settings", onOpen);
+    return () => window.removeEventListener("open-cookie-settings", onOpen);
   }, []);
 
   function choose(value) {

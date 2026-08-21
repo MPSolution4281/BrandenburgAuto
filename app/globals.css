@@ -282,6 +282,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
 .legal p { margin: 0 0 16px; color: #4f534f; line-height: 1.75; }
 .legal p:last-child { margin-bottom: 0; }
 .legal a { color: var(--green-dark); text-decoration: underline; }
+.link-button { padding: 0; border: 0; background: none; color: var(--green-dark); text-decoration: underline; font: inherit; cursor: pointer; }
 
 /* ─── COOKIE BANNER ──────────────────────────────────────── */
 .cookie-banner {

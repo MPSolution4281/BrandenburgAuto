@@ -1,4 +1,5 @@
 import PageHero from "@/components/PageHero";
+import CookieSettingsButton from "@/components/CookieSettingsButton";
 import { site } from "@/data/site";
 
 export const metadata = {
@@ -29,7 +30,7 @@ export default function PrivacyPage() {
         <div>
           <h2>Cookies og statistik</h2>
           <p>Siden bruger Google Analytics til at forstå, hvordan besøgende bruger hjemmesiden. Det sker kun, hvis du aktivt har accepteret cookies i den banner, der vises ved dit første besøg. Google Analytics sætter cookies, der indsamler anonymiseret information om din brug af siden, fx hvilke sider du besøger.</p>
-          <p>Du kan til enhver tid ændre dit valg ved at slette cookies i din browser og genindlæse siden, hvorefter cookie-banneret vises igen.</p>
+          <p>Du kan til enhver tid ændre dit valg via <CookieSettingsButton />.</p>
         </div>
         <div>
           <h2>Dine rettigheder</h2>
