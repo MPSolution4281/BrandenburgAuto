@@ -9,7 +9,7 @@ export const site = {
   street: "Bødkervej 9B",
   postalCode: "4300",
   city: "Holbæk",
-  cvr: "42221424",
+  cvr: "44778254",
   owner: "Joachim Brandenburg",
   hours: [
     ["Mandag - torsdag", "07.30 - 16.00"],
