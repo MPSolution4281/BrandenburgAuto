@@ -295,6 +295,54 @@ export const knowledge = [
       "Lyd der følger hastigheden: kig mod hjullejer eller drivline",
       "Rallen i tomgang: tjek varmeskjolde og udstødningsophæng"
     ]
+  },
+  {
+    slug: "advarselslamper-i-bilen",
+    title: "Hvad betyder de forskellige advarselslamper på instrumentbrættet?",
+    short: "Fra olietryk til ABS og dæktryk – lampens farve fortæller, hvor akut situationen er, og om du kan køre videre eller bør stoppe med det samme.",
+    image: "/images/dashboard-warning-lights.jpg",
+    imageAlt: "Advarselslamper lyser på bilens instrumentbræt",
+    bodyImage: "/images/diagnostics.png",
+    bodyImageAlt: "Fejlsøgning med diagnoseudstyr på autoværksted",
+    relatedService: "fejlsoegning",
+    body: [
+      "Moderne biler har op mod 20-30 forskellige advarselslamper, og de færreste kender betydningen af mere end et par stykker. Heldigvis er systemet bygget op om ét enkelt princip: farven fortæller, hvor akut det er.",
+      "Røde lamper betyder stop nu eller meget snart. Det gælder blandt andet olietryk, motortemperatur, bremsesystem og airbag. De peger på noget, der kan skade bilen alvorligt eller gå ud over sikkerheden, hvis du fortsætter med at køre.",
+      "Gule eller orange lamper betyder som regel: kør videre med omtanke, men få det tjekket snart. Det gælder motorlampen, ABS, dæktryk (TPMS), servostyring og partikelfilter. De fortæller om en fejl, der bør undersøges, men sjældent kræver du stopper med det samme.",
+      "Nogle lamper er lette at forveksle. ABS-lampen og bremselampen kan for eksempel lyse samtidig og se ens ud, men betyder noget forskelligt: ABS alene betyder, at antiblokeringssystemet er ude af drift, mens bremserne stadig virker uden ABS-assistance. Bremselampen alene skyldes ofte bare et lavt bremsevæskeniveau eller en aktiveret håndbremse.",
+      "Uanset hvilken lampe der lyser, starter en fejlsøgning altid med at læse fejlkoden ud af bilens computer. Det indsnævrer årsagen, men erstatter ikke en mekanisk kontrol af den faktiske komponent."
+    ],
+    tips: [
+      "Rød lampe: stop snarest muligt et sikkert sted",
+      "Gul eller orange lampe: kør videre med omtanke, men få den tjekket inden for kort tid",
+      "Blinker lampen, er det altid mere akut, end hvis den bare lyser konstant",
+      "Lyser flere lamper samtidig, kan det pege på en fælles årsag, for eksempel lavt batteri",
+      "Usikker på en lampe? Slå den op i instruktionsbogen, eller ring og beskriv den for os"
+    ]
+  },
+  {
+    slug: "bilen-traekker-til-siden",
+    title: "Bilen trækker til siden – hvad er årsagen?",
+    short: "Trækker bilen til en side under kørsel eller opbremsning, er dæktryk, hjulvinkler eller en bremsekaliber typisk de første ting, vi kigger på.",
+    image: "/images/wheel-check.jpg",
+    imageAlt: "Mekaniker tjekker dæktryk og hjul på værksted",
+    bodyImage: "/images/workshop.png",
+    bodyImageAlt: "Hjul og dæk under kontrol på løftet bil",
+    relatedService: "daek-og-hjul",
+    body: [
+      "En bil, der trækker til den ene side, er sjældent farlig i sig selv, men det er ubehageligt at køre med, og sliddet på dæk og styretøj stiger, jo længere problemet får lov at stå på.",
+      "Det første og billigste at tjekke er dæktrykket. Er trykket lavere i det ene dæk end det andet, vil bilen typisk trække mod siden med lavest tryk, især mærkbart ved højere hastighed. Det er samtidig værd at kigge efter ujævnt slidte dæk eller dæk af forskellig type på for- og bagaksel.",
+      "Trækker bilen konstant, uanset hastighed, og med jævnt dæktryk, peger det oftest mod hjulvinklerne. Et hårdt slag i et hul eller mod en kantsten kan skubbe vinklerne ud af justering, selv om bilen ellers virker upåvirket. Ujævnt dækslid over tid er ofte det tydeligste tegn på, at vinklerne trænger til at blive målt og justeret.",
+      "Trækker bilen derimod kun til siden, når du bremser, er årsagen som regel en anden: en bremsekaliber, der sidder fast eller kærver på den ene side, mens den anden bremser normalt. Det giver en ujævn bremsekraft mellem siderne, som du mærker tydeligst netop under opbremsning.",
+      "Slidte eller løse komponenter i styretøj og affjedring, for eksempel et kugleled eller en bøsning, kan også give et træk til siden, ofte kombineret med en fornemmelse af, at bilen er løs eller upræcis i styringen."
+    ],
+    tips: [
+      "Tjek og juster dæktrykket først – det er hurtigst og billigst at udelukke",
+      "Trækker bilen konstant ved al hastighed: sandsynligvis hjulvinklerne",
+      "Trækker bilen kun ved opbremsning: sandsynligvis en bremsekaliber",
+      "Ujævnt dækslid er ofte et tidligt varsel, længe før du mærker trækket i rattet",
+      "Vent ikke for længe – et skævt hjul slider dækkene hurtigere og mere ujævnt"
+    ]
   }
 ];
 
