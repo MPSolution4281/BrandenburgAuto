@@ -66,18 +66,24 @@ export default async function KnowledgeArticlePage({ params }) {
             </div>
           )}
         </div>
-        <div className="article-body">
-          {article.body.slice(1).map((paragraph) => <p key={paragraph.slice(0, 30)}>{paragraph}</p>)}
-          {article.tips && (
-            <div className="article-tips">
-              <span>Kort fortalt</span>
-              <ul className="check-list">
-                {article.tips.map((tip) => <li key={tip}>{tip}</li>)}
-              </ul>
+        <div className="article-body-grid">
+          <div className="article-body">
+            {article.body.slice(1).map((paragraph) => <p key={paragraph.slice(0, 30)}>{paragraph}</p>)}
+          </div>
+          {(article.tips || relatedService) && (
+            <div className="article-aside">
+              {article.tips && (
+                <div className="article-tips">
+                  <span>Kort fortalt</span>
+                  <ul className="check-list">
+                    {article.tips.map((tip) => <li key={tip}>{tip}</li>)}
+                  </ul>
+                </div>
+              )}
+              {relatedService && (
+                <Link className="text-link" href={`/ydelser/${relatedService.slug}`}>Se {relatedService.title.toLowerCase()} <Arrow /></Link>
+              )}
             </div>
-          )}
-          {relatedService && (
-            <Link className="text-link" href={`/ydelser/${relatedService.slug}`}>Se {relatedService.title.toLowerCase()} <Arrow /></Link>
           )}
         </div>
       </section>
